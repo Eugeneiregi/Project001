@@ -1,0 +1,79 @@
+table,
+td,
+th {
+    padding: 5px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+/*  */
+#overlay {
+    display: flex;
+    justify-content: space-between;
+}
+
+#ovelay li {
+    display: inline;
+    padding-right: 10px;
+}
+
+#personal {
+    display: flex;
+    justify-content: space-between;
+}
+
+#personal div {
+    padding-right: 10px;
+}
+
+nav ul li {
+    list-style-type: none;
+    width: 100px;
+    float: right;
+    font-size: 20px;
+}
+
+table {
+    width: 800px;
+}
+
+h1 {
+    font-size: xx-large;
+    color: yellow;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bolder;
+    flex-grow: inherit;
+}
+
+#example {
+    display: flex;
+    justify-content: space-between;
+    float: left;
+}
+
+h2 {
+    font-stretch: inherit;
+    color: magenta;
+    text-shadow: orchid;
+    font-style: inherit;
+    overflow: hidden;
+    font-size: x-large;
+}
+
+*{
+    background-color: honeydew;
+}
+header{
+    color: indigo;
+}
+h4{
+    font: outline;
+    color: magenta;
+    text-align: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-style: italic;
+    flex-wrap: wrap;
+}
+
