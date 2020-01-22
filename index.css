@@ -7,11 +7,14 @@ th {
 }
 
 /*  */
-#overlay {
+/* #overlay {
     display: flex;
     justify-content: space-between;
-}
+} */
 
+header{
+    background-color: green;
+}
 #ovelay li {
     display: inline;
     padding-right: 10px;
@@ -30,20 +33,30 @@ nav ul li {
     list-style-type: none;
     width: 100px;
     float: right;
-    font-size: 20px;
+    font-size: 10px;
+
+    
+}
+nav a{
+    list-style: none;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 table {
-    width: 800px;
+    width: 100%;
+    color: rgb(18, 20, 18);
 }
 
 h1 {
-    font-size: xx-large;
-    color: yellow;
+    font-size: 50px;
+    color:green;
     text-decoration: underline;
     font-style: italic;
     font-weight: bolder;
     flex-grow: inherit;
+    text-transform: uppercase;
+    font-family: 'Berkshire Swash', cursive;
 }
 
 #example {
@@ -58,11 +71,13 @@ h2 {
     text-shadow: orchid;
     font-style: inherit;
     overflow: hidden;
-    font-size: x-large;
+    font-size: 30px;
+
 }
 
 *{
     background-color: honeydew;
+     text-align: center;
 }
 header{
     color: indigo;
@@ -76,4 +91,35 @@ h4{
     font-style: italic;
     flex-wrap: wrap;
 }
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#back{
+    justify-content: space-between;
+    text-align: column;
+    flex-direction: column;
+    color: lightseagreen;
+}
+    table th{
+        background-color: mediumblue;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Italianno', cursive;
 
+    }
+
+    ol li {
+        text-align:center;
+        justify-content: center;
+    }
+    footer{
+        background-color: green;
+        height: 70px;
+        padding-top: 50px;
+        font-family: 'Italianno', cursive;
+    }
+    #iregi{
+        float: left;
+    }
